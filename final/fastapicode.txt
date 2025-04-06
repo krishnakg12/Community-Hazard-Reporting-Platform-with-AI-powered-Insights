@@ -1,0 +1,11 @@
+#TO RUN THE SERVER IN CMD
+
+cd /d "C:\Users\Adrian patrick\Desktop\HARP\api" && uvicorn main:app --reload
+
+#TO TEST IMAGE CLASSIFICATION
+
+curl -X POST "http://127.0.0.1:8000/classify/image/" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "file=@C:/Users/Adrian patrick/Desktop/HARP/dataset/test/wtest.jpg"
+
+#TO TEST TEXT CLASSIFICATION
+
+curl -X POST "http://127.0.0.1:8000/classify/text/" -H "accept: application/json" -H "Content-Type: application/x-www-form-urlencoded" --data-urlencode "description=This is a road with lots of potholes."
