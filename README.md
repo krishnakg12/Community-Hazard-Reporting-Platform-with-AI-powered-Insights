@@ -48,22 +48,7 @@ The platform allows users to:
 - ✅ Separate dashboards for citizens and administrators
 
 
-## 📂 Folder Structure
 
-CommunityHazardPlatform/
-├── client/ # React frontend
-│ ├── src/
-│ └── public/
-├── server/ # Node.js or Django backend
-│ └── routes/
-│ └── controllers/
-├── ml-api/ # FastAPI for ML model inference
-│ ├── main.py
-│ ├── models/
-│ └── utils/
-├── database/ # MongoDB schema + connection
-├── README.md
-└── .env.example
 
   How to Run Locally
 
