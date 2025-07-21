@@ -3,9 +3,9 @@
 
 An end-to-end AI-powered platform that enables citizens to report local hazards in real-time and assists authorities in prioritizing critical issues using ML-powered classification. Built using a full-stack architecture with real-time features, AI integration, and a responsive UI.
 
----
 
-## 🚀 Project Overview
+
+  Overview
 
 The platform allows users to:
 - Report environmental, infrastructural, or public safety hazards.
@@ -14,22 +14,22 @@ The platform allows users to:
 - Predict and display hazard **priority** (High/Medium/Low) based on risk factors like location, time, traffic, and weather.
 - Notify local authorities via real-time alerts.
 
----
 
-## 🔧 Tech Stack
 
-### 💻 Frontend:
+ Tech Stack
+
+###  Frontend:
 - React.js + Tailwind CSS  
 - Mapbox API for location pinning  
 - Axios for API integration
 
-### ⚙️ Backend:
+###  Backend:
 - Django (WebSocket + REST APIs)  
 - Node.js + Express (used in alternate version)  
 - MongoDB (Cloud Atlas) for data storage  
 - JWT for secure user authentication
 
-### 🧠 Machine Learning:
+ Machine Learning:
 - FastAPI serving ML models:
   - Text & Image Classification (scikit-learn, PyTorch)
   - Hazard Priority Scoring (Random Forest, XGBoost)
@@ -37,9 +37,8 @@ The platform allows users to:
 - LangChain used for chatbot integration
 - Pinecone for vector search (planned extension)
 
----
 
-## 📸 Features
+ Features
 
 - 🧠 AI-based Hazard Type & Priority Classification
 - 📍 Location tagging with latitude/longitude
@@ -48,7 +47,6 @@ The platform allows users to:
 - 🧾 Chatbot for citizen query support (via Gemini API)
 - ✅ Separate dashboards for citizens and administrators
 
----
 
 ## 📂 Folder Structure
 
@@ -67,12 +65,9 @@ CommunityHazardPlatform/
 ├── README.md
 └── .env.example
 
- 🧪 How to Run Locally
+  How to Run Locally
 
-1. **Clone the repo**  
-```bash
-git clone https://github.com/krishnakg12/CommunityHazardPlatform.git
-cd CommunityHazardPlatform
+1. Clone the repo  
 
 Set up Backend
 
